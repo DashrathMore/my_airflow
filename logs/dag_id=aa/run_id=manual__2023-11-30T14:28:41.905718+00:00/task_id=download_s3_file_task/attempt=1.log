@@ -1,0 +1,36 @@
+[2023-11-30T14:30:57.785+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: aa.download_s3_file_task manual__2023-11-30T14:28:41.905718+00:00 [queued]>
+[2023-11-30T14:30:57.980+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: aa.download_s3_file_task manual__2023-11-30T14:28:41.905718+00:00 [queued]>
+[2023-11-30T14:30:57.981+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-30T14:30:58.365+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): download_s3_file_task> on 2023-11-30 14:28:41.905718+00:00
+[2023-11-30T14:30:58.412+0000] {standard_task_runner.py:57} INFO - Started process 3432 to run task
+[2023-11-30T14:30:58.460+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'aa', 'download_s3_file_task', 'manual__2023-11-30T14:28:41.905718+00:00', '--job-id', '116', '--raw', '--subdir', 'DAGS_FOLDER/aa.py', '--cfg-path', '/tmp/tmpxbj8cod_']
+[2023-11-30T14:30:58.515+0000] {standard_task_runner.py:85} INFO - Job 116: Subtask download_s3_file_task
+[2023-11-30T14:31:00.028+0000] {task_command.py:416} INFO - Running <TaskInstance: aa.download_s3_file_task manual__2023-11-30T14:28:41.905718+00:00 [running]> on host ef0d87b1d156
+[2023-11-30T14:31:01.165+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Dashrath' AIRFLOW_CTX_DAG_ID='aa' AIRFLOW_CTX_TASK_ID='download_s3_file_task' AIRFLOW_CTX_EXECUTION_DATE='2023-11-30T14:28:41.905718+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-30T14:28:41.905718+00:00'
+[2023-11-30T14:31:01.176+0000] {s3.py:1366} INFO - This function shadows the 'download_file' method of S3 API, but it is not the same. If you want to use the original method from S3 API, please call 'S3Hook.get_conn().download_file()'
+[2023-11-30T14:31:01.177+0000] {s3.py:1372} INFO - Downloading source S3 file from Bucket dummy-v1 with path example.txt
+[2023-11-30T14:31:01.375+0000] {base.py:73} INFO - Using connection ID 'aws_conn' for task execution.
+[2023-11-30T14:31:01.382+0000] {connection_wrapper.py:378} INFO - AWS Connection (conn_id='aws_conn', conn_type='aws') credentials retrieved from login and password.
+[2023-11-30T14:31:03.146+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/aa.py", line 22, in download_s3_file
+    s3_hook.download_file(bucket_name=bucket_name, key=key,local_path=local_path)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 135, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 89, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 1398, in download_file
+    file = NamedTemporaryFile(dir=local_path, prefix="airflow_tmp_", delete=False)  # type: ignore
+  File "/usr/local/lib/python3.8/tempfile.py", line 540, in NamedTemporaryFile
+    (fd, name) = _mkstemp_inner(dir, prefix, suffix, flags, output_type)
+  File "/usr/local/lib/python3.8/tempfile.py", line 250, in _mkstemp_inner
+    fd = _os.open(file, flags, 0o600)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/example.txt/airflow_tmp_1c7d8nc0'
+[2023-11-30T14:31:03.342+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=aa, task_id=download_s3_file_task, execution_date=20231130T142841, start_date=20231130T143057, end_date=20231130T143103
+[2023-11-30T14:31:03.653+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 116 for task download_s3_file_task ([Errno 2] No such file or directory: '/opt/airflow/dags/example.txt/airflow_tmp_1c7d8nc0'; 3432)
+[2023-11-30T14:31:04.181+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-30T14:31:04.428+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

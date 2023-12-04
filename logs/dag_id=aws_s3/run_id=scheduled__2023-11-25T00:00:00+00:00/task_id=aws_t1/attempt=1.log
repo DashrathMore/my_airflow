@@ -1,0 +1,59 @@
+[2023-11-29T10:14:45.955+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: aws_s3.aws_t1 scheduled__2023-11-25T00:00:00+00:00 [queued]>
+[2023-11-29T10:14:46.075+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: aws_s3.aws_t1 scheduled__2023-11-25T00:00:00+00:00 [queued]>
+[2023-11-29T10:14:46.079+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-29T10:14:46.578+0000] {taskinstance.py:1382} INFO - Executing <Task(S3KeySensor): aws_t1> on 2023-11-25 00:00:00+00:00
+[2023-11-29T10:14:46.615+0000] {standard_task_runner.py:57} INFO - Started process 232 to run task
+[2023-11-29T10:14:46.670+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'aws_s3', 'aws_t1', 'scheduled__2023-11-25T00:00:00+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/s3_conn.py', '--cfg-path', '/tmp/tmpr86trqcc']
+[2023-11-29T10:14:46.688+0000] {standard_task_runner.py:85} INFO - Job 19: Subtask aws_t1
+[2023-11-29T10:14:48.000+0000] {task_command.py:416} INFO - Running <TaskInstance: aws_s3.aws_t1 scheduled__2023-11-25T00:00:00+00:00 [running]> on host a89a99bc45b2
+[2023-11-29T10:14:49.526+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Dashrath' AIRFLOW_CTX_DAG_ID='aws_s3' AIRFLOW_CTX_TASK_ID='aws_t1' AIRFLOW_CTX_EXECUTION_DATE='2023-11-25T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-25T00:00:00+00:00'
+[2023-11-29T10:14:49.528+0000] {s3.py:106} INFO - Poking for key : s3://dummy-v1/data.csv
+[2023-11-29T10:14:49.841+0000] {base_aws.py:581} WARNING - Unable to find AWS Connection ID 'aws_conn', switching to empty.
+[2023-11-29T10:14:49.857+0000] {base_aws.py:161} INFO - No connection ID provided. Fallback on boto3 credential strategy (region_name=None). See: https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html
+[2023-11-29T10:15:28.011+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/sensors/s3.py", line 144, in execute
+    super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/sensors/base.py", line 257, in execute
+    raise e
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/sensors/base.py", line 239, in execute
+    poke_return = self.poke(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/sensors/s3.py", line 137, in poke
+    return self._check_key(self.bucket_key)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/sensors/s3.py", line 125, in _check_key
+    obj = self.hook.head_object(key, bucket_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 135, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 89, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 879, in head_object
+    return self.get_conn().head_object(Bucket=bucket_name, Key=key)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/client.py", line 535, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/client.py", line 963, in _make_api_call
+    http, parsed_response = self._make_request(
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/client.py", line 986, in _make_request
+    return self._endpoint.make_request(operation_model, request_dict)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/endpoint.py", line 119, in make_request
+    return self._send_request(request_dict, operation_model)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/endpoint.py", line 198, in _send_request
+    request = self.create_request(request_dict, operation_model)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/endpoint.py", line 134, in create_request
+    self._event_emitter.emit(
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/hooks.py", line 412, in emit
+    return self._emitter.emit(aliased_event_name, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/hooks.py", line 256, in emit
+    return self._emit(event_name, kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/hooks.py", line 239, in _emit
+    response = handler(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/signers.py", line 105, in handler
+    return self.sign(operation_name, request)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/signers.py", line 189, in sign
+    auth.add_auth(request)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/auth.py", line 418, in add_auth
+    raise NoCredentialsError()
+botocore.exceptions.NoCredentialsError: Unable to locate credentials
+[2023-11-29T10:15:28.045+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=aws_s3, task_id=aws_t1, execution_date=20231125T000000, start_date=20231129T101445, end_date=20231129T101528
+[2023-11-29T10:15:28.379+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 19 for task aws_t1 (Unable to locate credentials; 232)
+[2023-11-29T10:15:28.461+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-29T10:15:28.631+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

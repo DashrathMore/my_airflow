@@ -1,0 +1,52 @@
+[2023-11-29T14:26:28.133+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: s3_pose_v1.upload_to_s3 scheduled__2023-11-26T00:00:00+00:00 [queued]>
+[2023-11-29T14:26:28.372+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: s3_pose_v1.upload_to_s3 scheduled__2023-11-26T00:00:00+00:00 [queued]>
+[2023-11-29T14:26:28.372+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-11-29T14:26:28.951+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): upload_to_s3> on 2023-11-26 00:00:00+00:00
+[2023-11-29T14:26:29.001+0000] {standard_task_runner.py:57} INFO - Started process 2598 to run task
+[2023-11-29T14:26:29.029+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 's3_pose_v1', 'upload_to_s3', 'scheduled__2023-11-26T00:00:00+00:00', '--job-id', '73', '--raw', '--subdir', 'DAGS_FOLDER/post_s3.py', '--cfg-path', '/tmp/tmpzi3wbuc1']
+[2023-11-29T14:26:29.044+0000] {standard_task_runner.py:85} INFO - Job 73: Subtask upload_to_s3
+[2023-11-29T14:26:33.668+0000] {task_command.py:416} INFO - Running <TaskInstance: s3_pose_v1.upload_to_s3 scheduled__2023-11-26T00:00:00+00:00 [running]> on host a89a99bc45b2
+[2023-11-29T14:26:38.312+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Dashrath' AIRFLOW_CTX_DAG_ID='s3_pose_v1' AIRFLOW_CTX_TASK_ID='upload_to_s3' AIRFLOW_CTX_EXECUTION_DATE='2023-11-26T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-26T00:00:00+00:00'
+[2023-11-29T14:26:39.636+0000] {base.py:73} INFO - Using connection ID 'aws_conn' for task execution.
+[2023-11-29T14:26:39.637+0000] {connection_wrapper.py:378} INFO - AWS Connection (conn_id='aws_conn', conn_type='aws') credentials retrieved from login and password.
+[2023-11-29T14:26:39.697+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/post_s3.py", line 32, in upload_to_s3
+    s3_hook.load_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 135, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 89, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 1081, in load_file
+    client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 747, in get_conn
+    return self.conn
+  File "/usr/local/lib/python3.8/functools.py", line 967, in __get__
+    val = self.func(instance)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 704, in conn
+    return self.get_client_type(region_name=self.region_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 664, in get_client_type
+    session = self.get_session(region_name=region_name, deferrable=deferrable)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 634, in get_session
+    return SessionFactory(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 178, in create_session
+    return self.basic_session
+  File "/usr/local/lib/python3.8/functools.py", line 967, in __get__
+    val = self.func(instance)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 113, in basic_session
+    return self._create_basic_session(session_kwargs=self.conn.session_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 196, in _create_basic_session
+    return boto3.session.Session(**session_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/boto3/session.py", line 91, in __init__
+    self._register_default_handlers()
+  File "/home/airflow/.local/lib/python3.8/site-packages/boto3/session.py", line 485, in _register_default_handlers
+    boto3.utils.lazy_call(
+AttributeError: module 'boto3' has no attribute 'utils'
+[2023-11-29T14:26:40.005+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=s3_pose_v1, task_id=upload_to_s3, execution_date=20231126T000000, start_date=20231129T142628, end_date=20231129T142640
+[2023-11-29T14:26:40.593+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 73 for task upload_to_s3 (module 'boto3' has no attribute 'utils'; 2598)
+[2023-11-29T14:26:40.877+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-29T14:26:41.215+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

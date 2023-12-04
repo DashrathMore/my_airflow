@@ -1,0 +1,5 @@
+[2023-12-01T02:46:31.576+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: api_dag1.get_age scheduled__2023-11-30T00:00:00+00:00 [queued]>
+[2023-12-01T02:46:31.925+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: api_dag1.get_age scheduled__2023-11-30T00:00:00+00:00 [queued]>
+[2023-12-01T02:46:31.928+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2023-12-01T02:46:39.227+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): get_age> on 2023-11-30 00:00:00+00:00
+[2023-12-01T02:46:39.421+0000] {standard_task_runner.py:57} INFO - Started process 116 to run task

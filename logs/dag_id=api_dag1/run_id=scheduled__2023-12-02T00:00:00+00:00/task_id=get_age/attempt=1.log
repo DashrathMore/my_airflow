@@ -1,0 +1,13 @@
+[2023-12-03T06:37:14.547+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: api_dag1.get_age scheduled__2023-12-02T00:00:00+00:00 [queued]>
+[2023-12-03T06:37:14.752+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: api_dag1.get_age scheduled__2023-12-02T00:00:00+00:00 [queued]>
+[2023-12-03T06:37:14.752+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2023-12-03T06:37:15.373+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): get_age> on 2023-12-02 00:00:00+00:00
+[2023-12-03T06:37:15.645+0000] {standard_task_runner.py:57} INFO - Started process 72 to run task
+[2023-12-03T06:37:15.686+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'api_dag1', 'get_age', 'scheduled__2023-12-02T00:00:00+00:00', '--job-id', '162', '--raw', '--subdir', 'DAGS_FOLDER/multiple.py', '--cfg-path', '/tmp/tmpth0hss6w']
+[2023-12-03T06:37:15.721+0000] {standard_task_runner.py:85} INFO - Job 162: Subtask get_age
+[2023-12-03T06:37:17.118+0000] {task_command.py:416} INFO - Running <TaskInstance: api_dag1.get_age scheduled__2023-12-02T00:00:00+00:00 [running]> on host 11b240335485
+[2023-12-03T06:37:24.522+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Dashrath' AIRFLOW_CTX_DAG_ID='api_dag1' AIRFLOW_CTX_TASK_ID='get_age' AIRFLOW_CTX_EXECUTION_DATE='2023-12-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-02T00:00:00+00:00'
+[2023-12-03T06:37:24.525+0000] {python.py:194} INFO - Done. Returned value was: 23
+[2023-12-03T06:37:24.918+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=api_dag1, task_id=get_age, execution_date=20231202T000000, start_date=20231203T063714, end_date=20231203T063724
+[2023-12-03T06:37:25.069+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-03T06:37:25.174+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

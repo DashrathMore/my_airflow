@@ -1,0 +1,664 @@
+[2023-11-29T14:16:47.571+0000] {processor.py:157} INFO - Started process (PID=16968) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:16:47.603+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:16:47.604+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:16:47.604+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:16:47.698+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v1']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:16:49.351+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:16:49.351+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-29T14:16:49.621+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:16:49.620+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-29T14:16:50.346+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:16:50.345+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-29T14:16:50.354+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:16:50.353+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:16:50.481+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:16:50.480+0000] {dag.py:2963} INFO - Creating ORM DAG for s3_pose_v1
+[2023-11-29T14:16:50.650+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:16:50.650+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v1 to 2023-11-25T00:00:00+00:00, run_after=2023-11-26T00:00:00+00:00
+[2023-11-29T14:16:51.742+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 4.187 seconds
+[2023-11-29T14:17:05.985+0000] {processor.py:157} INFO - Started process (PID=16987) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:17:06.012+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:17:06.013+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:17:06.013+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:17:06.039+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v1']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:17:06.120+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:17:06.120+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:17:06.372+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:17:06.372+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v1 to 2023-11-25T00:00:00+00:00, run_after=2023-11-26T00:00:00+00:00
+[2023-11-29T14:17:06.503+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.532 seconds
+[2023-11-29T14:17:43.152+0000] {processor.py:157} INFO - Started process (PID=17049) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:17:43.198+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:17:43.199+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:17:43.198+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:17:43.221+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v1']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:17:43.757+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:17:43.757+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:17:44.049+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:17:44.045+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v1 to 2023-11-25T00:00:00+00:00, run_after=2023-11-26T00:00:00+00:00
+[2023-11-29T14:17:44.660+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.529 seconds
+[2023-11-29T14:18:22.092+0000] {processor.py:157} INFO - Started process (PID=17112) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:18:22.162+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:18:22.163+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:18:22.163+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:18:22.244+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v1']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:18:22.419+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:18:22.419+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:18:22.534+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:18:22.527+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v1 to 2023-11-25T00:00:00+00:00, run_after=2023-11-26T00:00:00+00:00
+[2023-11-29T14:18:22.794+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.725 seconds
+[2023-11-29T14:19:13.111+0000] {processor.py:157} INFO - Started process (PID=17176) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:19:13.189+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:19:13.191+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:19:13.190+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:19:13.271+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v1']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:19:13.744+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:19:13.744+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:19:13.885+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:19:13.885+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v1 to 2023-11-29T00:00:00+00:00, run_after=2023-11-30T00:00:00+00:00
+[2023-11-29T14:19:14.216+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.119 seconds
+[2023-11-29T14:20:08.495+0000] {processor.py:157} INFO - Started process (PID=17226) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:20:08.563+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:20:08.567+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:20:08.567+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:20:08.584+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v1']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:20:09.455+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:20:09.455+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:20:09.567+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:20:09.567+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v1 to 2023-11-29T00:00:00+00:00, run_after=2023-11-30T00:00:00+00:00
+[2023-11-29T14:20:09.937+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.461 seconds
+[2023-11-29T14:21:12.143+0000] {processor.py:157} INFO - Started process (PID=17280) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:21:12.168+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:21:12.172+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:21:12.172+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:21:12.253+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v1']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:21:12.673+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:21:12.672+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:21:12.806+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:21:12.806+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v1 to 2023-11-29T00:00:00+00:00, run_after=2023-11-30T00:00:00+00:00
+[2023-11-29T14:21:13.211+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.097 seconds
+[2023-11-29T14:22:01.843+0000] {processor.py:157} INFO - Started process (PID=17350) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:22:01.941+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:22:01.942+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:22:01.941+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:22:02.044+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v1']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:22:02.448+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:22:02.448+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:22:02.742+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:22:02.737+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v1 to 2023-11-29T00:00:00+00:00, run_after=2023-11-30T00:00:00+00:00
+[2023-11-29T14:22:02.886+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.068 seconds
+[2023-11-29T14:22:56.113+0000] {processor.py:157} INFO - Started process (PID=17382) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:22:56.158+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:22:56.159+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:22:56.158+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:22:56.261+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v1']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:23:00.769+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:23:00.768+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:23:01.121+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:23:01.121+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v1 to 2023-11-29T00:00:00+00:00, run_after=2023-11-30T00:00:00+00:00
+[2023-11-29T14:23:01.580+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 5.498 seconds
+[2023-11-29T14:23:47.202+0000] {processor.py:157} INFO - Started process (PID=17438) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:23:47.270+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:23:47.280+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:23:47.279+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:23:47.313+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v1']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:23:48.033+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:23:48.032+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:23:48.654+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:23:48.654+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v1 to 2023-11-29T00:00:00+00:00, run_after=2023-11-30T00:00:00+00:00
+[2023-11-29T14:23:49.030+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.833 seconds
+[2023-11-29T14:24:19.658+0000] {processor.py:157} INFO - Started process (PID=17467) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:24:19.742+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:24:19.743+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:24:19.743+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:24:19.984+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v1']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:24:20.264+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:24:20.264+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:24:20.495+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:24:20.491+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v1 to 2023-11-29T00:00:00+00:00, run_after=2023-11-30T00:00:00+00:00
+[2023-11-29T14:24:20.882+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.233 seconds
+[2023-11-29T14:25:45.112+0000] {processor.py:157} INFO - Started process (PID=17519) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:25:45.144+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:25:45.159+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:25:45.144+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:25:45.275+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v1']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:25:45.960+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:25:45.960+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:25:46.299+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:25:46.298+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v1 to 2023-11-29T00:00:00+00:00, run_after=2023-11-30T00:00:00+00:00
+[2023-11-29T14:25:47.295+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 2.188 seconds
+[2023-11-29T14:26:22.956+0000] {processor.py:157} INFO - Started process (PID=17565) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:26:23.026+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:26:23.027+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:26:23.027+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:26:23.064+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v1']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:26:23.593+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:26:23.593+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:26:23.724+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:26:23.724+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v1 to 2023-11-29T00:00:00+00:00, run_after=2023-11-30T00:00:00+00:00
+[2023-11-29T14:26:24.052+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.102 seconds
+[2023-11-29T14:27:11.368+0000] {processor.py:157} INFO - Started process (PID=17596) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:27:11.407+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:27:11.408+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:27:11.408+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:27:11.467+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v1']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:27:11.735+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:27:11.735+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:27:11.939+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:27:11.929+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v1 to 2023-11-29T00:00:00+00:00, run_after=2023-11-30T00:00:00+00:00
+[2023-11-29T14:27:12.245+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.919 seconds
+[2023-11-29T14:27:51.603+0000] {processor.py:157} INFO - Started process (PID=17656) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:27:51.644+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:27:51.648+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:27:51.645+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:27:51.681+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v1']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:27:52.251+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:27:52.250+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:27:52.526+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:27:52.525+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v1 to 2023-11-29T00:00:00+00:00, run_after=2023-11-30T00:00:00+00:00
+[2023-11-29T14:27:53.102+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.583 seconds
+[2023-11-29T14:28:43.865+0000] {processor.py:157} INFO - Started process (PID=17728) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:28:43.886+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:28:43.888+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:28:43.887+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:28:43.924+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v1']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:28:44.345+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:28:44.345+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:28:44.487+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:28:44.486+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v1 to 2023-11-29T14:28:16.360611+00:00, run_after=2023-11-30T14:28:16.360611+00:00
+[2023-11-29T14:28:44.873+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.017 seconds
+[2023-11-29T14:29:15.402+0000] {processor.py:157} INFO - Started process (PID=17771) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:29:15.476+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:29:15.500+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:29:15.499+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:29:15.518+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v1']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:29:15.830+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:29:15.829+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:29:16.230+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:29:16.230+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v1 to 2023-11-29T14:28:16.360611+00:00, run_after=2023-11-30T14:28:16.360611+00:00
+[2023-11-29T14:29:16.541+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.153 seconds
+[2023-11-29T14:30:14.218+0000] {processor.py:157} INFO - Started process (PID=17835) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:30:14.242+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:30:14.297+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:30:14.293+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:30:14.344+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v1']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:30:14.734+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:30:14.734+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:30:14.880+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:30:14.880+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v1 to 2023-11-29T14:28:16.360611+00:00, run_after=2023-11-30T14:28:16.360611+00:00
+[2023-11-29T14:30:15.908+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.730 seconds
+[2023-11-29T14:30:49.462+0000] {processor.py:157} INFO - Started process (PID=17874) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:30:49.490+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:30:49.491+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:30:49.491+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:30:49.567+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v1']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:30:49.784+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:30:49.783+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:30:50.240+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:30:50.233+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v1 to 2023-11-29T14:28:16.360611+00:00, run_after=2023-11-30T14:28:16.360611+00:00
+[2023-11-29T14:30:50.680+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.228 seconds
+[2023-11-29T14:32:12.535+0000] {processor.py:157} INFO - Started process (PID=17915) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:32:12.541+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:32:12.563+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:32:12.547+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:32:15.350+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:32:20.030+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:32:20.029+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-29T14:32:20.299+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:32:20.299+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-29T14:32:20.612+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:32:20.612+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-29T14:32:20.612+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:32:20.612+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:32:20.692+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:32:20.688+0000] {dag.py:2963} INFO - Creating ORM DAG for s3_pose_v2
+[2023-11-29T14:32:20.752+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:32:20.752+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-28T14:32:20.748817+00:00, run_after=2023-11-29T14:32:20.748817+00:00
+[2023-11-29T14:32:21.064+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 9.404 seconds
+[2023-11-29T14:33:16.970+0000] {processor.py:157} INFO - Started process (PID=17961) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:33:17.045+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:33:17.046+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:33:17.046+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:33:17.102+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:33:17.651+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:33:17.650+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:33:17.815+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:33:17.814+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-28T14:33:17.814459+00:00, run_after=2023-11-29T14:33:17.814459+00:00
+[2023-11-29T14:33:19.380+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 2.420 seconds
+[2023-11-29T14:34:35.203+0000] {processor.py:157} INFO - Started process (PID=18010) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:34:35.233+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:34:35.240+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:34:35.237+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:34:35.428+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:34:35.963+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:34:35.963+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:34:36.499+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:34:36.477+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T14:34:36.941+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.762 seconds
+[2023-11-29T14:35:23.267+0000] {processor.py:157} INFO - Started process (PID=18057) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:35:23.320+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:35:23.321+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:35:23.321+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:35:23.350+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:35:23.652+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:35:23.652+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:35:23.772+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:35:23.772+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T14:35:24.685+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.426 seconds
+[2023-11-29T14:36:07.533+0000] {processor.py:157} INFO - Started process (PID=18097) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:36:07.536+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:36:07.537+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:36:07.537+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:36:07.560+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:36:07.732+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:36:07.732+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T14:36:07.837+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:36:07.836+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T14:36:08.148+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.636 seconds
+[2023-11-29T14:36:51.811+0000] {processor.py:157} INFO - Started process (PID=18151) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T14:36:51.864+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T14:36:51.867+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:36:51.865+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:36:51.885+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T14:36:52.683+0000] {logging_mixin.py:154} INFO - [2023-11-29T14:36:52.683+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:10:55.319+0000] {processor.py:157} INFO - Started process (PID=18239) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:10:55.322+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:10:55.324+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:10:55.323+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:10:55.355+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:10:55.991+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:10:55.988+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:10:56.100+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:10:56.096+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:10:58.190+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 2.895 seconds
+[2023-11-29T16:12:05.511+0000] {processor.py:157} INFO - Started process (PID=18308) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:12:05.546+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:12:05.547+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:12:05.547+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:12:05.607+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:12:06.000+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:12:05.999+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:12:06.127+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:12:06.126+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:12:06.299+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.803 seconds
+[2023-11-29T16:12:41.866+0000] {processor.py:157} INFO - Started process (PID=18348) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:12:41.891+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:12:41.892+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:12:41.892+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:12:41.948+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:12:42.708+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:12:42.708+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:12:42.788+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:12:42.787+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:12:42.929+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.074 seconds
+[2023-11-29T16:13:13.520+0000] {processor.py:157} INFO - Started process (PID=18403) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:13:13.543+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:13:13.544+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:13:13.544+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:13:13.582+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:13:13.734+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:13:13.733+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:13:13.841+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:13:13.840+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:13:13.974+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.477 seconds
+[2023-11-29T16:13:44.296+0000] {processor.py:157} INFO - Started process (PID=18466) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:13:44.316+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:13:44.317+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:13:44.316+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:13:44.348+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:13:44.461+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:13:44.461+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:13:44.528+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:13:44.527+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:13:44.598+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.308 seconds
+[2023-11-29T16:14:28.255+0000] {processor.py:157} INFO - Started process (PID=18523) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:14:28.302+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:14:28.303+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:14:28.303+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:14:28.410+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:14:28.784+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:14:28.784+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:14:28.846+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:14:28.846+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:14:29.208+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.016 seconds
+[2023-11-29T16:15:08.320+0000] {processor.py:157} INFO - Started process (PID=18566) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:15:08.322+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:15:08.323+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:15:08.323+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:15:08.335+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:15:08.479+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:15:08.478+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:15:08.576+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:15:08.576+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:15:08.760+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.445 seconds
+[2023-11-29T16:15:38.873+0000] {processor.py:157} INFO - Started process (PID=18625) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:15:38.891+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:15:38.900+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:15:38.899+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:15:38.936+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:15:39.452+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:15:39.451+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:15:39.541+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:15:39.541+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:15:39.605+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.776 seconds
+[2023-11-29T16:16:09.842+0000] {processor.py:157} INFO - Started process (PID=18690) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:16:09.843+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:16:09.843+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:16:09.843+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:16:09.853+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:16:09.877+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:16:09.877+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:16:09.899+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:16:09.899+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:16:09.921+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.083 seconds
+[2023-11-29T16:16:40.665+0000] {processor.py:157} INFO - Started process (PID=18754) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:16:40.669+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:16:40.671+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:16:40.670+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:16:40.761+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:16:42.331+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:16:42.331+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:16:42.937+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:16:42.937+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:16:45.453+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 4.797 seconds
+[2023-11-29T16:17:32.710+0000] {processor.py:157} INFO - Started process (PID=18819) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:17:32.716+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:17:32.723+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:17:32.717+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:17:32.755+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:17:32.918+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:17:32.918+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:17:33.056+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:17:33.056+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:17:33.170+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.466 seconds
+[2023-11-29T16:18:06.777+0000] {processor.py:157} INFO - Started process (PID=18880) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:18:06.806+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:18:06.807+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:18:06.807+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:18:06.848+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:18:07.121+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:18:07.121+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:18:07.300+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:18:07.300+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:18:07.644+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.875 seconds
+[2023-11-29T16:18:43.123+0000] {processor.py:157} INFO - Started process (PID=18943) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:18:43.156+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:18:43.161+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:18:43.160+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:18:43.202+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:18:44.178+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:18:44.177+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:18:44.449+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:18:44.448+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:18:46.095+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 3.006 seconds
+[2023-11-29T16:19:38.477+0000] {processor.py:157} INFO - Started process (PID=19009) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:19:38.611+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:19:38.612+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:19:38.611+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:19:38.653+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:19:38.979+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:19:38.958+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:19:39.269+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:19:39.268+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:19:39.841+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.397 seconds
+[2023-11-29T16:20:21.063+0000] {processor.py:157} INFO - Started process (PID=19052) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:20:21.098+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:20:21.099+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:20:21.099+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:20:21.136+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:20:21.770+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:20:21.766+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:20:23.989+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:20:23.985+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:20:24.234+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 3.202 seconds
+[2023-11-29T16:21:11.274+0000] {processor.py:157} INFO - Started process (PID=19119) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:21:11.462+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:21:11.463+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:21:11.463+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:21:11.476+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:21:12.006+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:21:12.006+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:21:12.128+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:21:12.114+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:21:13.671+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 2.471 seconds
+[2023-11-29T16:21:44.130+0000] {processor.py:157} INFO - Started process (PID=19177) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:21:44.158+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:21:44.164+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:21:44.159+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:21:44.196+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:21:44.342+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:21:44.341+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:21:44.394+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:21:44.394+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:21:44.517+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.392 seconds
+[2023-11-29T16:22:17.455+0000] {processor.py:157} INFO - Started process (PID=19235) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:22:17.457+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:22:17.458+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:22:17.458+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:22:17.468+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:22:17.531+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:22:17.531+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:22:17.777+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:22:17.777+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:22:17.833+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.383 seconds
+[2023-11-29T16:22:49.573+0000] {processor.py:157} INFO - Started process (PID=19299) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:22:49.618+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:22:49.619+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:22:49.619+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:22:49.665+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:22:50.431+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:22:50.431+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:22:50.574+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:22:50.574+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:22:51.105+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.551 seconds
+[2023-11-29T16:23:45.532+0000] {processor.py:157} INFO - Started process (PID=19372) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:23:45.534+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:23:45.535+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:23:45.535+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:23:45.551+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:23:45.589+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:23:45.588+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:23:45.626+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:23:45.626+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:23:45.666+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.139 seconds
+[2023-11-29T16:24:19.621+0000] {processor.py:157} INFO - Started process (PID=19437) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:24:19.644+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:24:19.645+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:24:19.644+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:24:19.664+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:24:19.700+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:24:19.700+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:24:19.733+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:24:19.733+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:24:19.772+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.157 seconds
+[2023-11-29T16:25:00.560+0000] {processor.py:157} INFO - Started process (PID=19494) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:25:00.629+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:25:00.636+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:25:00.635+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:25:00.646+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:25:00.768+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:25:00.768+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:25:00.929+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:25:00.929+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:25:10.783+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 10.235 seconds
+[2023-11-29T16:25:41.323+0000] {processor.py:157} INFO - Started process (PID=19558) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:25:41.345+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:25:41.346+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:25:41.346+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:25:41.354+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:25:41.430+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:25:41.430+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:25:41.454+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:25:41.454+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:25:41.484+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.165 seconds
+[2023-11-29T16:26:12.061+0000] {processor.py:157} INFO - Started process (PID=19609) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:26:12.107+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:26:12.114+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:26:12.114+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:26:12.154+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:26:12.295+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:26:12.294+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:26:12.515+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:26:12.514+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:26:12.734+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.693 seconds
+[2023-11-29T16:26:43.584+0000] {processor.py:157} INFO - Started process (PID=19667) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:26:43.616+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:26:43.618+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:26:43.617+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:26:43.628+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:26:43.963+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:26:43.962+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:26:44.107+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:26:44.107+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:26:44.450+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.877 seconds
+[2023-11-29T16:27:14.600+0000] {processor.py:157} INFO - Started process (PID=19730) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:27:14.661+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:27:14.666+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:27:14.662+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:27:14.692+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:27:15.061+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:27:15.057+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:27:15.393+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:27:15.392+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:27:15.865+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.271 seconds
+[2023-11-29T16:27:47.113+0000] {processor.py:157} INFO - Started process (PID=19781) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:27:47.184+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:27:47.185+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:27:47.185+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:27:47.205+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:27:47.728+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:27:47.728+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:27:47.865+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:27:47.865+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:27:48.486+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.389 seconds
+[2023-11-29T16:28:18.760+0000] {processor.py:157} INFO - Started process (PID=19848) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:28:18.761+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:28:18.763+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:28:18.762+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:28:18.770+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:28:18.800+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:28:18.800+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:28:18.822+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:28:18.821+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:28:18.845+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.089 seconds
+[2023-11-29T16:29:04.186+0000] {processor.py:157} INFO - Started process (PID=19912) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:29:04.220+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:29:04.225+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:29:04.225+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:29:04.248+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:29:04.688+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:29:04.687+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:29:04.809+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:29:04.809+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:29:05.421+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.276 seconds
+[2023-11-29T16:29:42.508+0000] {processor.py:157} INFO - Started process (PID=19959) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:29:42.586+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:29:42.596+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:29:42.596+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:29:42.613+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:29:42.851+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:29:42.849+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:29:43.520+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:29:43.489+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:29:43.670+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.185 seconds
+[2023-11-29T16:30:30.427+0000] {processor.py:157} INFO - Started process (PID=20022) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:30:30.462+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:30:30.463+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:30:30.463+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:30:30.639+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:30:31.084+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:30:31.084+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:30:31.189+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:30:31.189+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:30:31.988+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.594 seconds
+[2023-11-29T16:31:08.144+0000] {processor.py:157} INFO - Started process (PID=20082) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:31:08.151+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:31:08.153+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:31:08.152+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:31:08.169+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:31:08.371+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:31:08.371+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:31:08.507+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:31:08.507+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:31:08.805+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.685 seconds
+[2023-11-29T16:31:41.592+0000] {processor.py:157} INFO - Started process (PID=20148) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:31:41.627+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:31:41.628+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:31:41.627+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:31:41.668+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:31:42.225+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:31:42.224+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:31:42.440+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:31:42.440+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:31:43.079+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.510 seconds
+[2023-11-29T16:32:14.256+0000] {processor.py:157} INFO - Started process (PID=20192) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:32:14.281+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:32:14.282+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:32:14.282+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:32:14.324+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:32:14.720+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:32:14.713+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:32:14.965+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:32:14.961+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:32:15.484+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.242 seconds
+[2023-11-29T16:32:46.620+0000] {processor.py:157} INFO - Started process (PID=20240) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:32:46.622+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:32:46.628+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:32:46.628+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:32:46.824+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:32:47.253+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:32:47.253+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:32:47.441+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:32:47.418+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:32:48.103+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.537 seconds
+[2023-11-29T16:33:18.851+0000] {processor.py:157} INFO - Started process (PID=20295) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:33:18.935+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:33:18.937+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:33:18.936+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:33:18.998+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:33:19.225+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:33:19.221+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:33:19.383+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:33:19.379+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:33:19.929+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.083 seconds
+[2023-11-29T16:34:06.495+0000] {processor.py:157} INFO - Started process (PID=20360) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:34:06.516+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:34:06.531+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:34:06.531+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:34:06.566+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:34:07.204+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:34:07.203+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:34:07.587+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:34:07.586+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:34:08.276+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.811 seconds
+[2023-11-29T16:34:52.654+0000] {processor.py:157} INFO - Started process (PID=20433) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:34:52.677+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:34:52.685+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:34:52.680+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:34:52.712+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:34:53.084+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:34:53.083+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:34:53.217+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:34:53.213+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:34:53.544+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.903 seconds
+[2023-11-29T16:35:36.053+0000] {processor.py:157} INFO - Started process (PID=20497) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:35:36.063+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:35:36.065+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:35:36.064+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:35:36.077+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:35:36.302+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:35:36.301+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:35:36.427+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:35:36.427+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:35:36.730+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.683 seconds
+[2023-11-29T16:36:19.750+0000] {processor.py:157} INFO - Started process (PID=20551) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:36:19.789+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:36:19.833+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:36:19.833+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:36:19.910+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:36:22.791+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:36:22.791+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:36:23.266+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:36:23.266+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:36:23.500+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 3.755 seconds
+[2023-11-29T16:37:14.775+0000] {processor.py:157} INFO - Started process (PID=20618) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:37:14.850+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:37:14.851+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:37:14.851+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:37:15.029+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:37:15.398+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:37:15.398+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:37:15.659+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:37:15.659+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:37:15.860+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.095 seconds
+[2023-11-29T16:37:55.964+0000] {processor.py:157} INFO - Started process (PID=20659) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:37:55.996+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:37:55.998+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:37:55.997+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:37:56.047+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:37:56.458+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:37:56.457+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:37:56.547+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:37:56.547+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:37:56.803+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.898 seconds
+[2023-11-29T16:38:40.617+0000] {processor.py:157} INFO - Started process (PID=20729) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:38:40.708+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:38:40.709+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:38:40.709+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:38:40.761+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:38:41.361+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:38:41.361+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:38:41.768+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:38:41.764+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:38:42.107+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.518 seconds
+[2023-11-29T16:39:16.554+0000] {processor.py:157} INFO - Started process (PID=20781) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:39:16.602+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:39:16.647+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:39:16.647+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:39:16.708+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:39:17.082+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:39:17.082+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:39:17.230+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:39:17.230+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:39:17.533+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.092 seconds
+[2023-11-29T16:40:10.315+0000] {processor.py:157} INFO - Started process (PID=20847) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:40:10.354+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:40:10.355+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:40:10.354+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:40:10.364+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:40:11.435+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:40:11.435+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:40:11.674+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:40:11.673+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:40:11.845+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.563 seconds
+[2023-11-29T16:41:02.248+0000] {processor.py:157} INFO - Started process (PID=20919) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:41:02.288+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:41:02.298+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:41:02.297+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:41:02.333+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:41:02.488+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:41:02.488+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:41:02.695+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:41:02.695+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:41:03.346+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.111 seconds
+[2023-11-29T16:41:34.685+0000] {processor.py:157} INFO - Started process (PID=20972) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:41:34.744+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:41:34.753+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:41:34.745+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:41:34.788+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:41:35.276+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:41:35.275+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:41:35.472+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:41:35.472+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:41:35.989+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.318 seconds
+[2023-11-29T16:42:18.725+0000] {processor.py:157} INFO - Started process (PID=21037) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:42:18.768+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:42:18.773+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:42:18.772+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:42:18.818+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:42:19.262+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:42:19.262+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:42:19.496+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:42:19.492+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:42:20.042+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.333 seconds
+[2023-11-29T16:42:58.919+0000] {processor.py:157} INFO - Started process (PID=21098) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:42:58.946+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:42:58.947+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:42:58.946+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:42:58.998+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:42:59.509+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:42:59.509+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:42:59.657+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:42:59.653+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:43:00.062+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.148 seconds
+[2023-11-29T16:43:42.707+0000] {processor.py:157} INFO - Started process (PID=21162) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:43:42.731+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:43:42.735+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:43:42.735+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:43:42.760+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:43:43.282+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:43:43.282+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:43:43.494+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:43:43.494+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:43:44.228+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.534 seconds
+[2023-11-29T16:44:15.177+0000] {processor.py:157} INFO - Started process (PID=21208) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:44:15.249+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:44:15.253+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:44:15.253+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:44:15.281+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:44:15.563+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:44:15.563+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:44:15.613+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:44:15.613+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:44:15.913+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.741 seconds
+[2023-11-29T16:44:46.295+0000] {processor.py:157} INFO - Started process (PID=21273) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:44:46.319+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:44:46.320+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:44:46.320+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:44:46.361+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:44:46.645+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:44:46.644+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:44:46.757+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:44:46.756+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:44:47.264+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.990 seconds
+[2023-11-29T16:45:22.619+0000] {processor.py:157} INFO - Started process (PID=21328) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:45:22.647+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:45:22.653+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:45:22.653+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:45:22.692+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:45:23.097+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:45:23.096+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:45:23.455+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:45:23.455+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:45:23.780+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.184 seconds
+[2023-11-29T16:46:04.904+0000] {processor.py:157} INFO - Started process (PID=21388) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:46:04.923+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:46:04.924+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:46:04.924+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:46:04.944+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:46:05.143+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:46:05.142+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:46:05.412+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:46:05.412+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:46:06.861+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.970 seconds
+[2023-11-29T16:46:40.840+0000] {processor.py:157} INFO - Started process (PID=21439) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:46:40.912+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:46:40.914+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:46:40.913+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:46:41.005+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:46:41.926+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:46:41.926+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:46:42.221+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:46:42.220+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:46:42.746+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 2.141 seconds
+[2023-11-29T16:47:13.112+0000] {processor.py:157} INFO - Started process (PID=21503) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:47:13.114+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:47:13.115+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:47:13.114+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:47:13.120+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:47:13.141+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:47:13.141+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:47:13.158+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:47:13.158+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:47:13.177+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.068 seconds
+[2023-11-29T16:47:59.160+0000] {processor.py:157} INFO - Started process (PID=21574) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:47:59.211+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:47:59.220+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:47:59.219+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:47:59.265+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:47:59.601+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:47:59.600+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:47:59.837+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:47:59.837+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:48:00.076+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.928 seconds
+[2023-11-29T16:48:41.175+0000] {processor.py:157} INFO - Started process (PID=21623) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:48:41.195+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:48:41.196+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:48:41.196+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:48:41.222+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:48:41.904+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:48:41.904+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:48:42.065+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:48:42.065+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:48:42.887+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.718 seconds
+[2023-11-29T16:49:18.433+0000] {processor.py:157} INFO - Started process (PID=21683) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:49:18.445+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:49:18.447+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:49:18.446+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:49:18.488+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:49:19.028+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:49:19.028+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:49:19.199+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:49:19.199+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:49:19.312+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.888 seconds
+[2023-11-29T16:49:51.010+0000] {processor.py:157} INFO - Started process (PID=21740) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:49:51.034+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:49:51.035+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:49:51.035+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:49:51.081+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:49:51.791+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:49:51.791+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:49:52.111+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:49:52.111+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:49:52.992+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.992 seconds
+[2023-11-29T16:50:29.140+0000] {processor.py:157} INFO - Started process (PID=21795) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:50:29.167+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:50:29.169+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:50:29.168+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:50:29.228+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:50:30.284+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:50:30.284+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:50:30.522+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:50:30.522+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:50:31.048+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.919 seconds
+[2023-11-29T16:51:08.704+0000] {processor.py:157} INFO - Started process (PID=21861) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:51:08.706+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:51:08.707+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:51:08.707+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:51:08.723+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:51:08.754+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:51:08.754+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:51:08.782+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:51:08.782+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:51:08.816+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.121 seconds
+[2023-11-29T16:51:39.655+0000] {processor.py:157} INFO - Started process (PID=21924) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:51:39.658+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:51:39.658+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:51:39.658+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:51:39.666+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:51:39.696+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:51:39.696+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:51:39.719+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:51:39.719+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:51:39.757+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.106 seconds
+[2023-11-29T16:52:11.312+0000] {processor.py:157} INFO - Started process (PID=21988) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:52:11.355+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:52:11.358+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:52:11.356+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:52:11.373+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:52:11.606+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:52:11.606+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:52:11.652+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:52:11.652+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:52:11.886+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.578 seconds
+[2023-11-29T16:52:48.141+0000] {processor.py:157} INFO - Started process (PID=22049) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:52:48.158+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:52:48.159+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:52:48.159+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:52:48.217+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:52:48.263+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:52:48.263+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:52:48.403+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:52:48.403+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:52:48.811+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.681 seconds
+[2023-11-29T16:53:19.772+0000] {processor.py:157} INFO - Started process (PID=22114) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:53:19.795+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:53:19.796+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:53:19.796+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:53:19.804+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:53:19.830+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:53:19.830+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:53:19.850+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:53:19.850+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:53:19.874+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.106 seconds
+[2023-11-29T16:53:50.709+0000] {processor.py:157} INFO - Started process (PID=22180) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:53:50.712+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:53:50.713+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:53:50.713+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:53:50.721+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:53:50.751+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:53:50.750+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:53:50.770+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:53:50.770+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:53:50.794+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.088 seconds
+[2023-11-29T16:54:21.556+0000] {processor.py:157} INFO - Started process (PID=22245) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:54:21.575+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:54:21.576+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:54:21.575+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:54:21.589+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:54:21.825+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:54:21.824+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:54:21.866+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:54:21.866+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:54:21.929+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.381 seconds
+[2023-11-29T16:54:52.541+0000] {processor.py:157} INFO - Started process (PID=22310) to work on /opt/airflow/dags/post_s3.py
+[2023-11-29T16:54:52.575+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-11-29T16:54:52.577+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:54:52.576+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:54:52.619+0000] {processor.py:839} INFO - DAG(s) dict_keys(['s3_pose_v2']) retrieved from /opt/airflow/dags/post_s3.py
+[2023-11-29T16:54:52.712+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:54:52.712+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-29T16:54:52.754+0000] {logging_mixin.py:154} INFO - [2023-11-29T16:54:52.754+0000] {dag.py:3722} INFO - Setting next_dagrun for s3_pose_v2 to 2023-11-29T14:33:17.814459+00:00, run_after=2023-11-30T14:33:17.814459+00:00
+[2023-11-29T16:54:52.786+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 0.250 seconds

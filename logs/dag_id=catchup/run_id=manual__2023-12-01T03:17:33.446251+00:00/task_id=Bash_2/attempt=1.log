@@ -1,0 +1,17 @@
+[2023-12-01T03:21:23.530+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: catchup.Bash_2 manual__2023-12-01T03:17:33.446251+00:00 [queued]>
+[2023-12-01T03:21:23.669+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: catchup.Bash_2 manual__2023-12-01T03:17:33.446251+00:00 [queued]>
+[2023-12-01T03:21:23.714+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-01T03:21:23.919+0000] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): Bash_2> on 2023-12-01 03:17:33.446251+00:00
+[2023-12-01T03:21:23.940+0000] {standard_task_runner.py:57} INFO - Started process 477 to run task
+[2023-12-01T03:21:23.963+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'catchup', 'Bash_2', 'manual__2023-12-01T03:17:33.446251+00:00', '--job-id', '142', '--raw', '--subdir', 'DAGS_FOLDER/catchup.py', '--cfg-path', '/tmp/tmpbc2qwwdy']
+[2023-12-01T03:21:23.967+0000] {standard_task_runner.py:85} INFO - Job 142: Subtask Bash_2
+[2023-12-01T03:21:24.725+0000] {task_command.py:416} INFO - Running <TaskInstance: catchup.Bash_2 manual__2023-12-01T03:17:33.446251+00:00 [running]> on host bd32bf6b1b32
+[2023-12-01T03:21:26.398+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Dashrath' AIRFLOW_CTX_DAG_ID='catchup' AIRFLOW_CTX_TASK_ID='Bash_2' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T03:17:33.446251+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-01T03:17:33.446251+00:00'
+[2023-12-01T03:21:26.412+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-12-01T03:21:26.438+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo this is second task']
+[2023-12-01T03:21:26.598+0000] {subprocess.py:86} INFO - Output:
+[2023-12-01T03:21:26.631+0000] {subprocess.py:93} INFO - this is second task
+[2023-12-01T03:21:26.654+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-12-01T03:21:27.191+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=catchup, task_id=Bash_2, execution_date=20231201T031733, start_date=20231201T032123, end_date=20231201T032127
+[2023-12-01T03:21:27.530+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-01T03:21:45.930+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

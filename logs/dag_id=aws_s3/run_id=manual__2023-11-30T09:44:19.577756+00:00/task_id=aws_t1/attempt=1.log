@@ -1,0 +1,16 @@
+[2023-11-30T09:44:52.489+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: aws_s3.aws_t1 manual__2023-11-30T09:44:19.577756+00:00 [queued]>
+[2023-11-30T09:44:52.792+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: aws_s3.aws_t1 manual__2023-11-30T09:44:19.577756+00:00 [queued]>
+[2023-11-30T09:44:52.915+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-30T09:44:53.629+0000] {taskinstance.py:1382} INFO - Executing <Task(S3KeySensor): aws_t1> on 2023-11-30 09:44:19.577756+00:00
+[2023-11-30T09:44:53.689+0000] {standard_task_runner.py:57} INFO - Started process 538 to run task
+[2023-11-30T09:44:53.707+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'aws_s3', 'aws_t1', 'manual__2023-11-30T09:44:19.577756+00:00', '--job-id', '95', '--raw', '--subdir', 'DAGS_FOLDER/s3_conn.py', '--cfg-path', '/tmp/tmp5v1r_n0w']
+[2023-11-30T09:44:53.748+0000] {standard_task_runner.py:85} INFO - Job 95: Subtask aws_t1
+[2023-11-30T09:44:55.957+0000] {task_command.py:416} INFO - Running <TaskInstance: aws_s3.aws_t1 manual__2023-11-30T09:44:19.577756+00:00 [running]> on host ef0d87b1d156
+[2023-11-30T09:44:58.037+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Dashrath' AIRFLOW_CTX_DAG_ID='aws_s3' AIRFLOW_CTX_TASK_ID='aws_t1' AIRFLOW_CTX_EXECUTION_DATE='2023-11-30T09:44:19.577756+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-30T09:44:19.577756+00:00'
+[2023-11-30T09:44:58.047+0000] {s3.py:106} INFO - Poking for key : s3://dummy-v1/data.csv
+[2023-11-30T09:44:58.308+0000] {base.py:73} INFO - Using connection ID 'aws_conn' for task execution.
+[2023-11-30T09:44:58.361+0000] {connection_wrapper.py:378} INFO - AWS Connection (conn_id='aws_conn', conn_type='aws') credentials retrieved from login and password.
+[2023-11-30T09:46:11.797+0000] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-11-30T09:46:12.065+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=aws_s3, task_id=aws_t1, execution_date=20231130T094419, start_date=20231130T094452, end_date=20231130T094612
+[2023-11-30T09:46:14.816+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-30T09:46:15.191+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

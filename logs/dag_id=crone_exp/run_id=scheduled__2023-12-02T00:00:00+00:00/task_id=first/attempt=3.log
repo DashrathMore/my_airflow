@@ -1,0 +1,5 @@
+[2023-12-04T04:17:33.841+0000] {task_command.py:416} INFO - Running <TaskInstance: crone_exp.first scheduled__2023-12-02T00:00:00+00:00 [removed]> on host ec0adab034ec
+[2023-12-04T04:17:37.963+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Dashrath' AIRFLOW_CTX_DAG_ID='crone_exp' AIRFLOW_CTX_TASK_ID='first' AIRFLOW_CTX_EXECUTION_DATE='2023-12-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-02T00:00:00+00:00'
+[2023-12-04T04:17:37.964+0000] {logging_mixin.py:154} INFO - **** start dag ****
+[2023-12-04T04:17:37.964+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-12-04T04:17:38.329+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=crone_exp, task_id=first, execution_date=20231202T000000, start_date=20231204T041521, end_date=20231204T041738

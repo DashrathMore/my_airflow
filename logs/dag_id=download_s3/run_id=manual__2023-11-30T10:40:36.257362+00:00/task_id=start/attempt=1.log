@@ -1,0 +1,14 @@
+[2023-11-30T10:41:30.382+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: download_s3.start manual__2023-11-30T10:40:36.257362+00:00 [queued]>
+[2023-11-30T10:41:30.486+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: download_s3.start manual__2023-11-30T10:40:36.257362+00:00 [queued]>
+[2023-11-30T10:41:30.498+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-11-30T10:41:30.622+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): start> on 2023-11-30 10:40:36.257362+00:00
+[2023-11-30T10:41:30.666+0000] {standard_task_runner.py:57} INFO - Started process 1188 to run task
+[2023-11-30T10:41:30.688+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'download_s3', 'start', 'manual__2023-11-30T10:40:36.257362+00:00', '--job-id', '99', '--raw', '--subdir', 'DAGS_FOLDER/download_s3.py', '--cfg-path', '/tmp/tmpdeq0pqxl']
+[2023-11-30T10:41:30.732+0000] {standard_task_runner.py:85} INFO - Job 99: Subtask start
+[2023-11-30T10:41:32.661+0000] {task_command.py:416} INFO - Running <TaskInstance: download_s3.start manual__2023-11-30T10:40:36.257362+00:00 [running]> on host ef0d87b1d156
+[2023-11-30T10:41:36.580+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Dashrath' AIRFLOW_CTX_DAG_ID='download_s3' AIRFLOW_CTX_TASK_ID='start' AIRFLOW_CTX_EXECUTION_DATE='2023-11-30T10:40:36.257362+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-30T10:40:36.257362+00:00'
+[2023-11-30T10:41:36.722+0000] {logging_mixin.py:154} INFO - File downloading Started...
+[2023-11-30T10:41:36.722+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-11-30T10:41:37.094+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=download_s3, task_id=start, execution_date=20231130T104036, start_date=20231130T104130, end_date=20231130T104137
+[2023-11-30T10:41:37.830+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-30T10:41:38.268+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

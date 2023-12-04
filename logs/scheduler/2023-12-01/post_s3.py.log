@@ -1,0 +1,19 @@
+[2023-12-01T02:45:14.308+0000] {processor.py:157} INFO - Started process (PID=103) to work on /opt/airflow/dags/post_s3.py
+[2023-12-01T02:45:14.829+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-12-01T02:45:15.156+0000] {logging_mixin.py:154} INFO - [2023-12-01T02:45:15.101+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-12-01T02:45:15.210+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/post_s3.py
+[2023-12-01T02:45:22.121+0000] {logging_mixin.py:154} INFO - [2023-12-01T02:45:22.120+0000] {taskinstance.py:1939} ERROR - {'DAG Id': 's3_pose_v2', 'Task Id': 'upload_to_s3', 'Run Id': 'scheduled__2023-11-29T14:33:17.814459+00:00', 'Hostname': 'ef0d87b1d156', 'External Executor Id': '0b5782fc-b540-480d-aa2b-485d34d50170'}
+[2023-12-01T02:45:24.852+0000] {logging_mixin.py:154} INFO - [2023-12-01T02:45:24.852+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=s3_pose_v2, task_id=upload_to_s3, execution_date=20231129T143317, start_date=20231130T143337, end_date=20231201T024522
+[2023-12-01T02:45:26.616+0000] {processor.py:790} INFO - Executed failure callback for <TaskInstance: s3_pose_v2.upload_to_s3 scheduled__2023-11-29T14:33:17.814459+00:00 [up_for_retry]> in state up_for_retry
+[2023-12-01T02:45:26.644+0000] {logging_mixin.py:154} INFO - [2023-12-01T02:45:26.644+0000] {taskinstance.py:1939} ERROR - {'DAG Id': 's3_pose_v2', 'Task Id': 'upload_to_s3', 'Run Id': 'scheduled__2023-11-29T14:33:17.814459+00:00', 'Hostname': 'ef0d87b1d156', 'External Executor Id': '0b5782fc-b540-480d-aa2b-485d34d50170'}
+[2023-12-01T02:45:26.666+0000] {logging_mixin.py:154} INFO - [2023-12-01T02:45:26.665+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=s3_pose_v2, task_id=upload_to_s3, execution_date=20231129T143317, start_date=20231130T143337, end_date=20231201T024526
+[2023-12-01T02:45:26.710+0000] {processor.py:790} INFO - Executed failure callback for <TaskInstance: s3_pose_v2.upload_to_s3 scheduled__2023-11-29T14:33:17.814459+00:00 [failed]> in state failed
+[2023-12-01T02:45:27.432+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 16.138 seconds
+[2023-12-01T02:45:28.949+0000] {processor.py:157} INFO - Started process (PID=111) to work on /opt/airflow/dags/post_s3.py
+[2023-12-01T02:45:28.950+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/post_s3.py for tasks to queue
+[2023-12-01T02:45:28.955+0000] {logging_mixin.py:154} INFO - [2023-12-01T02:45:28.955+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/post_s3.py
+[2023-12-01T02:45:28.956+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/post_s3.py
+[2023-12-01T02:45:29.820+0000] {logging_mixin.py:154} INFO - [2023-12-01T02:45:29.820+0000] {taskinstance.py:1939} ERROR - {'DAG Id': 's3_pose_v2', 'Task Id': 'upload_to_s3', 'Run Id': 'scheduled__2023-11-29T14:33:17.814459+00:00', 'Hostname': 'ef0d87b1d156', 'External Executor Id': '0b5782fc-b540-480d-aa2b-485d34d50170'}
+[2023-12-01T02:45:29.859+0000] {logging_mixin.py:154} INFO - [2023-12-01T02:45:29.858+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=s3_pose_v2, task_id=upload_to_s3, execution_date=20231129T143317, start_date=20231130T143337, end_date=20231201T024529
+[2023-12-01T02:45:29.977+0000] {processor.py:790} INFO - Executed failure callback for <TaskInstance: s3_pose_v2.upload_to_s3 scheduled__2023-11-29T14:33:17.814459+00:00 [failed]> in state failed
+[2023-12-01T02:45:30.419+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/post_s3.py took 1.574 seconds
